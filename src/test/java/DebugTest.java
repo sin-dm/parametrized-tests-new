@@ -8,7 +8,6 @@ public class DebugTest {
 
     @Test
     public void debugTest() {
-        int result = calculator.sum(1, 2);
-        assertEquals(3, result);
+        assertEquals(3, calculator.sum(1, 2));
     }
 }
